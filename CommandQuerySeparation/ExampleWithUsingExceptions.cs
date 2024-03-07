@@ -40,9 +40,9 @@ public class Program
         //straight forward and easy to understand
         try
         {
-            var number = new Number(a);
-            number.Divide(b);
-            number.Add(b);
+            //try/catch blocks make code hard to read
+            //so it's best to extract the blocks to their own methods
+            DivideAndAddTwoNumbers(a, b);
         }//all error handling is consolidated in catch blocks
         catch (DivideByZeroException)
         {
@@ -53,6 +53,14 @@ public class Program
             Console.WriteLine("Divisor is too large");
         }
     }
+
+    private static void DivideAndAddTwoNumbers(int a, int b)
+    {
+        var number = new Number(a);
+        number.Divide(b);
+        number.Add(b);
+    }
+    
     public static void Main(string[] args)
     {
         Calculate(25, 0);
