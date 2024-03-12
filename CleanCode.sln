@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatement", "SwitchSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandQuerySeparation", "CommandQuerySeparation\CommandQuerySeparation.csproj", "{DFFC74CC-5DDA-4B57-8570-3DF4D2E04CEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comments", "Comments", "{4C53E0F2-B010-4795-BE6F-59A7D02D6A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplainYourselfInCode", "ExplainYourselfInCode\ExplainYourselfInCode.csproj", "{4861F293-F6E6-4FDC-ADFA-3317F6F8B740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,7 @@ Global
 		{8389F229-87F1-4651-B97D-0675F24FC8D5} = {15CA0E36-4A34-4312-958F-96F13B82A8D6}
 		{5906474F-2A10-42AB-B49F-BE870A9BFBCA} = {302C2DBC-4062-4BB2-AF87-8BA6544729FD}
 		{DFFC74CC-5DDA-4B57-8570-3DF4D2E04CEA} = {302C2DBC-4062-4BB2-AF87-8BA6544729FD}
+		{4861F293-F6E6-4FDC-ADFA-3317F6F8B740} = {4C53E0F2-B010-4795-BE6F-59A7D02D6A5D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8389F229-87F1-4651-B97D-0675F24FC8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -39,5 +44,9 @@ Global
 		{DFFC74CC-5DDA-4B57-8570-3DF4D2E04CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFFC74CC-5DDA-4B57-8570-3DF4D2E04CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFFC74CC-5DDA-4B57-8570-3DF4D2E04CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4861F293-F6E6-4FDC-ADFA-3317F6F8B740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4861F293-F6E6-4FDC-ADFA-3317F6F8B740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4861F293-F6E6-4FDC-ADFA-3317F6F8B740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4861F293-F6E6-4FDC-ADFA-3317F6F8B740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
