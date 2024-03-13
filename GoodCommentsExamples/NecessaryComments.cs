@@ -7,6 +7,8 @@ namespace GoodCommentsExamples;
  * Readers would have to read the regex and try to figure out what it is doing.
  *
  * So the comment is helpful.
+ *
+ * This would be better if the code is moved to a class that converted the formats of dates and times
  */
 
 public class NecessaryComments
