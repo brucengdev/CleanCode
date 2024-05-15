@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClarifyingComments", "Clari
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{1A32FE14-23D0-49A5-A75F-60094D46D016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingProxyClasses", "System\AspectOrientedProgramming\UsingProxyClasses.csproj", "{91C855D0-7911-46A2-94A5-9349139A13C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingProxyClasses", "System\AspectOrientedProgramming\UsingProxyClasses.csproj", "{91C855D0-7911-46A2-94A5-9349139A13C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspectOrientedProgramming", "AspectOrientedProgramming", "{C247A249-F67A-4379-9332-1918C463F285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RemoveDuplication", "RemoveDuplication", "{AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicationExample", "System\RemoveDuplication\RemoveDuplicationExample\RemoveDuplicationExample.csproj", "{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,10 @@ Global
 		{91C855D0-7911-46A2-94A5-9349139A13C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C855D0-7911-46A2-94A5-9349139A13C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C855D0-7911-46A2-94A5-9349139A13C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +82,8 @@ Global
 		{51CF4D18-970D-431F-8D67-5DA1A7301151} = {4C53E0F2-B010-4795-BE6F-59A7D02D6A5D}
 		{91C855D0-7911-46A2-94A5-9349139A13C9} = {C247A249-F67A-4379-9332-1918C463F285}
 		{C247A249-F67A-4379-9332-1918C463F285} = {1A32FE14-23D0-49A5-A75F-60094D46D016}
+		{AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9} = {1A32FE14-23D0-49A5-A75F-60094D46D016}
+		{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6} = {AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9938B93-D0E3-41A2-9C58-DD962BA530DE}
