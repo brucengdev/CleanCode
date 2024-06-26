@@ -29,9 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspectOrientedProgramming",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RemoveDuplication", "RemoveDuplication", "{AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicationExample", "System\RemoveDuplication\RemoveDuplicationExample\RemoveDuplicationExample.csproj", "{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicationExample", "System\RemoveDuplication\RemoveDuplicationExample\RemoveDuplicationExample.csproj", "{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePattern", "System\RemoveDuplication\TemplatePattern\TemplatePattern.csproj", "{9AEB7722-B4FF-4730-99CB-B770C2A278BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatePattern", "System\RemoveDuplication\TemplatePattern\TemplatePattern.csproj", "{9AEB7722-B4FF-4730-99CB-B770C2A278BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeSmells", "CodeSmells", "{7405FCCE-0AF3-4B18-B5F2-08FB3C206AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveTemporalCoupling", "CodeSmells\RemoveTemporalCoupling\RemoveTemporalCoupling.csproj", "{7D434000-CDB9-4D49-BADD-7BD44153F507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,10 @@ Global
 		{9AEB7722-B4FF-4730-99CB-B770C2A278BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AEB7722-B4FF-4730-99CB-B770C2A278BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEB7722-B4FF-4730-99CB-B770C2A278BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D434000-CDB9-4D49-BADD-7BD44153F507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D434000-CDB9-4D49-BADD-7BD44153F507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D434000-CDB9-4D49-BADD-7BD44153F507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D434000-CDB9-4D49-BADD-7BD44153F507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,7 @@ Global
 		{AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9} = {1A32FE14-23D0-49A5-A75F-60094D46D016}
 		{7CE78EFD-8003-45E2-BF2E-9DB06FABD8F6} = {AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9}
 		{9AEB7722-B4FF-4730-99CB-B770C2A278BC} = {AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9}
+		{7D434000-CDB9-4D49-BADD-7BD44153F507} = {7405FCCE-0AF3-4B18-B5F2-08FB3C206AE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9938B93-D0E3-41A2-9C58-DD962BA530DE}
