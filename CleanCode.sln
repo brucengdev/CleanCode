@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveTemporalCoupling", "C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrency", "Concurrency", "{A2E8AC7E-A0D3-454E-866F-112DEF6DE31F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonThreadedServer", "Concurrency\NonThreadedServer\NonThreadedServer.csproj", "{88D5B157-1B63-4012-984C-50A1AD1609A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonThreadedServer", "Concurrency\NonThreadedServer\NonThreadedServer.csproj", "{88D5B157-1B63-4012-984C-50A1AD1609A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientVsServerBasedLocking", "Concurrency\ClientVsServerBasedLocking\ClientVsServerBasedLocking.csproj", "{28A3A581-7B0C-4141-8492-27FE624DE05C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{88D5B157-1B63-4012-984C-50A1AD1609A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D5B157-1B63-4012-984C-50A1AD1609A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D5B157-1B63-4012-984C-50A1AD1609A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A3A581-7B0C-4141-8492-27FE624DE05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A3A581-7B0C-4141-8492-27FE624DE05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A3A581-7B0C-4141-8492-27FE624DE05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A3A581-7B0C-4141-8492-27FE624DE05C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{9AEB7722-B4FF-4730-99CB-B770C2A278BC} = {AB969214-A285-4CF9-9CAE-3BA2C5CDBCE9}
 		{7D434000-CDB9-4D49-BADD-7BD44153F507} = {7405FCCE-0AF3-4B18-B5F2-08FB3C206AE8}
 		{88D5B157-1B63-4012-984C-50A1AD1609A8} = {A2E8AC7E-A0D3-454E-866F-112DEF6DE31F}
+		{28A3A581-7B0C-4141-8492-27FE624DE05C} = {A2E8AC7E-A0D3-454E-866F-112DEF6DE31F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9938B93-D0E3-41A2-9C58-DD962BA530DE}
